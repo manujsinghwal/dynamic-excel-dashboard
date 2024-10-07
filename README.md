@@ -3,8 +3,8 @@
 
 #### Data Structure:
 1. **ShipmentId:** An unique identification for each shipment. 
-2. **Carrier:** 
-3. CarrierService
+2. **Carrier:** Carrier name, through which "First Class Handicraft" shipping their products across entire India.
+3. **CarrierService:** A shipping service type
 4. OriginCity
 5. OriginState
 6. OriginCountry
