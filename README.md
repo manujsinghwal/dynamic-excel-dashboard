@@ -57,6 +57,7 @@ The Last Mile Team at First Class Handicrafts needs a way to:
 1. **Data Importing:**
 The report dynamically filters data to display records for orders imported 3 days before the current date. This ensures the team is only analyzing relevant and recent data. The following SQL query is used to fetch the required last mile shipment data for the dashboard. The query pulls data from the MySQL database for shipments imported three days prior to the current date.
 
+```sql
 -- Query: Shipment Data
 -- Writer: Manuj Singhwal
 -- Description: Fetch last mile data for curdate() - 3
@@ -119,6 +120,7 @@ SELECT
         ELSE 0
     END AS DeliveryDelayHour
 FROM shipment_data_2;
+```
 
 3. **Data Refresh:**
 Users can refresh the entire report with a single click using Excel’s Refresh All button to pull updated data from the MySQL database.
