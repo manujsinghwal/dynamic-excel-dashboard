@@ -1,5 +1,4 @@
 # First Class Handicrafts - Logistics and Supply Chain Tracking Dashboard
-"First Class Handicraft" is looking for insights into their last mile and wants to know the problem statements (if any) in their last mile.
 
 ### Project Overview
 This project involves building a dynamic Excel dashboard to track the performance of various carriers used by First Class Handicrafts, a small handicraft company based in Delhi, India. The dashboard provides real-time insights into shipment deliveries, delays, and performance comparisons across multiple carriers.
