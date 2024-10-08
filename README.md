@@ -9,18 +9,18 @@ The purpose is to help the Last Mile Team evaluate carrier efficiency, identify 
 Data is pulled from a MySQL database using ODBC connection into MS Excel.
 The dataset includes the following fields:
 1. **ShipmentId:** An unique identification for each shipment.
-2. **Carrier:** Carrier name, through which "First Class Handicraft" shipping their products across entire India.
-3. **CarrierService:** A shipping service type
+2. **Carrier:** Carrier name, through which "First Class Handicraft" shipping their products across different regions in India.
+3. **CarrierService:** A shipping service type.
 4. **OriginCity**
 5. **OriginState**
 6. **OriginCountry**
 7. **DestinationCity**
 8. **DestinationState**
 9. **DestinationCountry**
-10. **ShipmentImportedTimestamp:** When shipment gets imported to our system (through website).
-11. **ShipmentFulfilledSLATimestamp:** Every imported order have an SLA timestamp, time by which shipment should be fulfilled (picked and packed).
+10. **ShipmentImportedTimestamp:** When shipment gets imported through website.
+11. **ShipmentFulfilledSLATimestamp:** Every imported order have a SLA timestamp, time by which shipment should be fulfilled (picked and packed).
 12. **ShipmentFulfilledTimestamp:** Actual shipment fulfilled timestamp, actual time by which shipment was packed and had a label for the carrier and carrier service.
-13. **ShipmentCarrierPickUpTimestamp:** Timestamp when shipment picked by the carrier.
+13. **ShipmentCarrierPickUpTimestamp:** Timestamp when shipment picked by the carrier for delivery.
 14. **ShipmentExpectedDeliveryTimestamp:** Expected delivery timestamp for shipment based on the carrier service used.
 15. **ShipmentDeliveredTimestamp:** Timestamp when shipment gets delivered to the customer.
 16. **OrderStatus:** Fulfilled or Cancelled
@@ -37,7 +37,7 @@ The Last Mile Team at First Class Handicrafts needs a way to:
 ### Dashboard Features
 1. **Real-Time Data Updates:**
 * Data shown in the dashboard is based on shipments imported three days before the current date to align with carrier service levels (Next Day, Two Day, and Standard (Three Day) Delivery).
-* A refresh button (available in Excel) allows the team to update the data dynamically without needing to re-enter the information manually.
+* A refresh button (available in Excel) allows the team to update the data dynamically without needing to re-enter manually.
   
 2. **Carrier Performance Evaluation:**
 * Analyze key metrics:
@@ -45,17 +45,9 @@ The Last Mile Team at First Class Handicrafts needs a way to:
   ii. Average delay hours for each carrier.
   iii. Best and worst performing carriers in terms of timely deliveries.
 
-3. **Dynamic Reporting:**
-* Interactive filters for region, carrier, and date range.
-* KPI Tracker for evaluating on-time deliveries, delays, and overall carrier efficiency.
-
-4. **Visualizations:**
-* Bar charts, pie charts, and tables to represent carrier performance.
-* Delivery Delay Trends: Graph showing delays across different carrier services.
-
 ### Workflow
-1. **Data Importing:**
-The report dynamically filters data to display records for orders imported 3 days before the current date. This ensures the team is only analyzing relevant and recent data. The following SQL query is used to fetch the required last mile shipment data for the dashboard. The query pulls data from the MySQL database for shipments imported three days prior to the current date.
+1. **Data Import:**
+The following SQL query is used to fetch the required last mile shipment data for the dashboard. The query pulls data from the MySQL database for shipments imported three days prior to the current date.
 
 ```sql
 -- Query: Shipment Data
