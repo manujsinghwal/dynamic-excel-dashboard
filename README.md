@@ -41,8 +41,11 @@ The Last Mile Team at First Class Handicrafts needs a way to:
   
 2. **Carrier Performance Evaluation:**
 * Analyze key metrics:
+  /
   i. Total orders delivered vs. total delayed orders.
+  /
   ii. Average delay hours for each carrier.
+  /
   iii. Best and worst performing carriers in terms of timely deliveries.
 
 ### Workflow
