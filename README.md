@@ -122,3 +122,8 @@ Users can refresh the entire report with a single click using Excel’s Refresh 
 
 4. **Performance Insights:**
 The dashboard provides clear insights into which carriers are consistently on time and which are contributing to delivery delays. This enables the team to take corrective actions based on real-time data.
+
+### Final View
+\
+![image](https://github.com/user-attachments/assets/e54ac3fb-9dd1-4ac6-a8b4-ebd8abcb8f8b)
+
