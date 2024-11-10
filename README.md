@@ -124,6 +124,11 @@ Users can refresh the entire report with a single click using Excel’s Refresh 
 The dashboard provides clear insights into which carriers are consistently on time and which are contributing to delivery delays. This enables the team to take corrective actions based on real-time data.
 
 ### Final View
-\
-![image](https://github.com/user-attachments/assets/e54ac3fb-9dd1-4ac6-a8b4-ebd8abcb8f8b)
+
+1. **Uber View:**
+![image](https://github.com/user-attachments/assets/553dfc04-1b50-4023-8630-8065801085f8)
+
+2. **Detailed View:**
+![image](https://github.com/user-attachments/assets/d2af61b9-3bf7-4ab8-a9c0-5c7eb61c0c30)
+
 
