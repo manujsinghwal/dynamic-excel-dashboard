@@ -35,12 +35,12 @@ The Last Mile Team at First Class Handicrafts needs a way to:
 4. Filter data interactively to analyze the best and worst performing carriers.
 
 ### Dashboard Features
-1. **Real-Time Data Updates:**
-* Data shown in the dashboard is based on shipments imported three days before the current date to align with carrier service levels (Next Day, Two Day, and Standard (Three Day) Delivery).
-* A refresh button (available in Excel) allows the team to update the data dynamically without needing to re-enter manually.
+* **Real-Time Data Updates:**
+1. Data shown in the dashboard is based on shipments imported three days before the current date to align with carrier service levels (Next Day, Two Day, and Standard (Three Day) Delivery).
+2. A refresh button (available in Excel) allows the team to update the data dynamically without needing to re-enter manually.
   
-2. **Carrier Performance Evaluation:**
-* Analyze key metrics:
+* **Carrier Performance Evaluation:**
+1. Analyze key metrics:
   \
   i. Total orders delivered vs. total delayed orders.
   \
@@ -117,10 +117,10 @@ SELECT
 FROM shipment_data_2;
 ```
 
-3. **Data Refresh:**
+2. **Data Refresh:**
 Users can refresh the entire report with a single click using Excel’s Refresh All button to pull updated data from the MySQL database.
 
-4. **Performance Insights:**
+3. **Performance Insights:**
 The dashboard provides clear insights into which carriers are consistently on time and which are contributing to delivery delays. This enables the team to take corrective actions based on real-time data.
 
 ### Final View
