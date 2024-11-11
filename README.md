@@ -129,6 +129,7 @@ The dashboard provides clear insights into which carriers are consistently on ti
 ![image](https://github.com/user-attachments/assets/553dfc04-1b50-4023-8630-8065801085f8)
 
 2. **Detailed View:**
-![image](https://github.com/user-attachments/assets/d2af61b9-3bf7-4ab8-a9c0-5c7eb61c0c30)
+![image](https://github.com/user-attachments/assets/196c512a-e443-4779-bf3a-dd23b2abdcfd)
+
 
 
